@@ -6,8 +6,8 @@ Command: npx gltfjsx@6.1.1 null.glb
 // import React, { useRef } from 'react'
 import { useGLTF, OrthographicCamera } from '@react-three/drei'
 
-export function Model(props) {
-  const { nodes, materials } = useGLTF('/null.glb')
+export default function Model(props) {
+  const { nodes, materials } = useGLTF('/glb/null.glb')
   return (
     <group {...props} dispose={null}>
       <group rotation={[-Math.PI / 2, 0, 0]}>

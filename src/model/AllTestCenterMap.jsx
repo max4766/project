@@ -7,7 +7,7 @@ Command: npx gltfjsx@6.1.1 allTestCenterMap.glb
 import { useGLTF, OrthographicCamera } from '@react-three/drei'
 
 export function Model(props) {
-  const { nodes, materials } = useGLTF('/allTestCenterMap.glb')
+  const { nodes, materials } = useGLTF('/glb/allTestCenterMap.glb')
   return (
     <group {...props} dispose={null}>
       <group rotation={[-Math.PI / 2, 0, 0]}>
