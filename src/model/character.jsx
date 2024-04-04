@@ -24,4 +24,4 @@ export default function Model(props) {
   )
 }
 
-useGLTF.preload('/character.glb')
+useGLTF.preload('/glb/character.glb')

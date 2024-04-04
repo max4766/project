@@ -13,3 +13,8 @@ body,
   padding: 0 !important;
 }
   
+.d-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
